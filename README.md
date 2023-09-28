@@ -4,6 +4,15 @@
 
 Este proyecto es una demostración de cómo crear una aplicación Flutter usando una arquitectura limpia, Bloc, Equatable, y otros patrones y principios de diseño.
 
+## Consideraciones
+
+Se cuenta con un feature simple de autenticación, las credenciales son las siguientes
+
+```
+Username: rick
+Password: 123456
+```
+
 ## Instalación
 
 1. Instala Flutter siguiendo las instrucciones de la documentación oficial: https://flutter.dev/docs/get-started/install.
