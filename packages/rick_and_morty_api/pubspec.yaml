@@ -1,0 +1,18 @@
+name: rick_and_morty_api
+description: Rick And Morty Api.
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  dio: ^5.3.3
+  equatable: ^2.0.5
+  rick_and_morty_entities:
+    path: ../rick_and_morty_entities
+
+dev_dependencies:
+  mocktail: ^1.0.0
+  test: ^1.19.2
+  very_good_analysis: ^5.1.0

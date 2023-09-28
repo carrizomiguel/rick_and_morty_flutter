@@ -1,0 +1,35 @@
+name: rickandmorty
+description: Rick and Morty App
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  animations: ^2.0.8
+  bloc: ^8.1.2
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  flutter_svg: ^2.0.7
+  infinite_scroll: ^1.1.1
+  rick_and_morty_entities:
+    path: packages/rick_and_morty_entities
+  rick_and_morty_repository:
+    path: packages/rick_and_morty_repository
+
+dev_dependencies:
+  bloc_test: ^9.1.4
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.0
+  very_good_analysis: ^5.1.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/
+    - assets/svg/
