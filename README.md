@@ -6,11 +6,17 @@ Este proyecto es una demostración de cómo crear una aplicación Flutter usando
 
 ## Consideraciones
 
-Se cuenta con un feature simple de autenticación, las credenciales son las siguientes
+1. Se cuenta con un feature simple de autenticación, las credenciales son las siguientes
 
 ```
 Username: rick
 Password: 123456
+```
+
+2. Puedes encontrar un apk actualizado en la siguiente carpeta
+
+```
+resources/app-release.apk
 ```
 
 ## Instalación
